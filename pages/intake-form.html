@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ana Costa Fitness — Work with Ana</title>
+		<link rel="stylesheet" href="../css/reset.css" media="screen" type="text/css">
+		<link rel="stylesheet" href="../css/styles.css" media="screen" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Pompiere|Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- Wraps Whole Design -->
+ 		<div id="mainWrapper">
+		
+		<!-- Main Image, Welcome Message -->
+		<header id="getStartedHeader">
+
+			<!-- JS will apply to this ID to expand and close -->
+			<div id="mainMenu" class="expandOpen">
+				<a href="#"><i class="fa fa-navicon"></i></br>menu</a>
+			</div>
+
+			<div class="menuExpand">
+				<div class="menuExpandInner">
+					<ul>
+						<li><a class="closeMainMenu" href="#">Close <i class="fa fa-close lg"></i></a></li>
+						<li><a class="smoothScroll" href="../index.html">Home</a></li>
+						<li><a class="smoothScroll" href="../index.html#focusAreas">Focus Areas</a></li>
+						<li><a class="smoothScroll" href="../pages/about.html">Meet Ana</a></li>
+						<li><a class="smoothScroll" href="../pages/news-events.html">News &amp; Events</a></li>
+						<li><a class="smoothScroll" href="../pages/testimonials.html">Testimonials</a></li>
+					</ul>
+					<div class="socialMenu">
+						<ul>
+							<li><a href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Icons below will not show when menu is expanded -->
+			<div class="socialIcons">
+				<ul>
+					<li><a href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>	
+				</ul>
+			</div>
+		</header>
+			
+		<!-- Forms -->
+		<section id="getStartedForm" name="getStartedForm">
+			<div class="headerTitle">
+				<h1>Work with Ana</h1>
+				<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tempus nibh. Donec finibus sapien scelerisque ipsum molestie, consequat vehicula erat tempor. Duis at maximus orci, a sodales augue.</p>
+			</div>
+
+			<div id="intakeForm">
+			<form id="intakeFormEntries" action="../pages/success.html" method="post">
+				<div class="question field_name">
+					<div class="fieldTitle">My name is
+					<input id="name" name="name" type="text" required>
+					<span class="error">Your name is required</span>
+					<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+					</div>
+				</div>
+				
+				<div class="question dropdown">
+					<div class="fieldTitle">My age group is 	
+						<select id="customDropDown" required>
+							<option value="none" disabled selected>Select your age range</option>
+							<option value="18-24">18-24 years old</option>
+							<option value="25-34">25-34 years old</option>
+							<option value="35-44">35-44 years old</option>
+							<option value="45-54">45-54 years old</option>
+							<option value="55-64">55-64 years old</option>
+							<option value="65+">65+ years old</option>
+						</select>
+						<span class="error">Your age is required</span>
+						<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+					</div>
+				</div>
+
+				<div class="question primaryGoal">
+					<div class="fieldTitle">My primary fitness goal is 
+					<input id="goal1" name="primary-goal" type="text" required>
+					<span class="error">Please provide a primary fitness goal</span>
+					<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+					</div>
+				</div>
+								
+				<div class="question secondaryGoal">
+					<div class="fieldTitle">My secondary fitness goal is 
+					<input id="goal2" name="secondary-goal" type="text" required>
+					<span class="error">Please provide a secondary fitness goal</span>
+					<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+					</div>
+				</div>
+								
+				<div id="injury" class="radioButtons">
+					<div class="radioButtonContainer">
+						<input name="hasInjury" type="radio" value="no-injury" id="radio1">
+						<label for="radio1">
+						<div class="customRadio"></div>I don't have an injury or surgery
+						</label>
+					</div>
+
+					<div class="radioButtonContainer">
+						<input name="hasInjury" type="radio" value="yes-injury" id="radio2">
+						<label for="radio2">
+						<div class="customRadio"></div>I do have an injury or surgery
+						</label>
+					</div>
+					<span class="error">Please make a selection</span>
+					<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+				</div>
+
+				<div class="hiddenQuestion">
+					<div class="question">
+						<div class="fieldTitle">My injury or surgery is 
+						<input id="InjuryType" name="injury-detail" type="text">
+						</div>
+					</div>
+				</div>
+								
+				<div class="question email_field">
+					<div class="fieldTitle">Contact me via email at 
+					<input id="emailAddr" name="email" type="email" required>
+					</div>
+					<span class="error">A valid email address is required (yourname@email.com)</span>
+					<span class="valid">Looks great <i class="fa fa-check fa-lg"></i></span>
+				</div>
+
+				<div class="submitButton">
+					<input name="submit" type="submit" value="Send" >
+				</div>
+							
+			</form>
+			</div>
+		</section>
+			
+		
+		<!-- Start Footer  -->
+		<footer>
+			<div class="socialFooter">
+				<ul>
+					<li><a href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
+			</div>
+			<div class="contactInfo">
+				<p>Contact and Copyright Info Goes Here</p>
+			</div>
+		</footer>
+		<!-- End Footer  -->
+
+		<!-- Start Java Script  -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="../js/main.js" type="text/javascript"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		</div>
+	</body>
+</html>

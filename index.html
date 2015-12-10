@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ana Costa Fitness</title>
+		<link rel="stylesheet" href="css/reset.css" media="screen" type="text/css">
+		<link rel="stylesheet" href="css/styles.css" media="screen" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Pompiere|Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- Wraps Whole Design -->
+ 		<div id="mainWrapper">
+		
+		<!-- Main Image, Welcome Message, Menu and CTA -->
+		<header>
+			<div class="outerContainer">
+				<div class="tint">
+					<img class="mainImage" src="assets/main.jpg" alt="main test image">
+				</div>
+				<div class="welcome">
+					<h1>Ana Costa Fitness</h1>
+					<p class="subhead">Certified Personal Trainer</br>
+					NASM CPT, KBC, TRX, RIP, P/P NATAL</p>
+					<div class="primaryCTA"><a href="pages/intake-form.html">Work with Ana</a></div>
+				</div>
+			</div>
+			
+			<!-- JS will apply to this ID to expand and close -->
+			<div id="mainMenu" class="expandOpen">
+				<a href="#"><i class="fa fa-navicon"></i></br>menu</a>
+			</div>
+
+			<div class="menuExpand">
+				<div class="menuExpandInner">
+					<ul>
+						<li><a class="closeMainMenu" href="#">Close <i class="fa fa-close lg"></i></a></li>
+						<li><a class="smoothScroll" href="#focusAreas">Focus Areas</a></li>
+						<li><a class="smoothScroll" href="#about">Meet Ana</a></li>
+						<li><a class="smoothScroll" href="#news">News &amp; Events</a></li>
+						<li><a class="smoothScroll" href="#getStarted">Work with Ana</a></li>
+						<li><a class="smoothScroll" href="#testimonials">Testimonials</a></li>
+					</ul>
+					<div class="socialMenu">
+						<ul>
+							<li><a class="icontest" href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Icons below will not show when menu is expanded -->
+			<div class="socialIcons">
+				<ul>
+					<li><a href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com"><i class="fa fa-facebook" target="_blank"></i></a></li>
+					<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>	
+				</ul>
+			</div>
+		</header>
+
+		<!-- 6 Blocks for Fitness Focus Areas, JS applied to open controlled pop-up -->
+		<section id="focusAreas" name="focusAreas">
+			<div class="boxes box1">
+				<a class="boxLink" href="#openModal"><h3><i class="fa fa-clone"></i> Pre- &amp; Post-Natal<h3></a>
+
+				<div id="openModal" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Pre- &amp; Post-Natal</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage5.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="boxes box2">
+				<a class="boxLink" href="#openModal2"><h3><i class="fa fa-clone"></i> Weight Loss<h3></a>
+
+				<div id="openModal2" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Weight Loss</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage4.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="boxes box3">
+				<a class="boxLink" href="#openModal3"><h3><i class="fa fa-clone"></i> Rehab &amp; Prehab<h3></a>
+
+				<div id="openModal3" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Rehab &amp; Prehab</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage6.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="boxes box4">
+				<a class="boxLink" href="#openModal4"><h3><i class="fa fa-clone"></i> Flexibility &amp; Mobility<h3></a>
+
+				<div id="openModal4" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Flexibility &amp; Mobility</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage7.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="boxes box5">
+				<a class="boxLink" href="#openModal5"><h3><i class="fa fa-clone"></i> Nutrition &amp; Wellness<h3></a>
+
+				<div id="openModal5" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Nutrition &amp; Wellness</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage8.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="boxes box6">
+				<a class="boxLink" href="#openModal6"><h3><i class="fa fa-clone"></i> Capoeira<h3></a>
+
+				<div id="openModal6" class="modalDialog">
+					<div class="inside">
+						<a href="#close" title="Close" class="close">Close <i class="fa fa-close"></i></a>
+						<h2>Capoeira</h2>
+						<div>
+							<img class="popupImage" src="assets/TestImage9.jpg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem turpis, convallis et dapibus quis, commodo ut ipsum. Aenean id iaculis dui, nec eleifend mi. Donec consequat convallis elit vel hendrerit. Praesent tristique, dolor quis dapibus finibus, velit arcu sollicitudin lectus, at pharetra nisl risus et lectus. Nulla malesuada sollicitudin dolor, eget lobortis tellus aliquet eu. Maecenas venenatis et purus eget vulputate. Integer id ultricies metus. Cras cursus vitae mi vel tincidunt. Donec nisl odio, semper semper lobortis sit amet, viverra sit amet diam. Sed euismod pharetra ante, eu mattis magna mattis eget. Donec ac tristique metus, in maximus est. Maecenas luctus a est id dictum. Vestibulum non tortor auctor, malesuada mi sit amet, cursus orci. Proin auctor id neque eget imperdiet. Nunc vitae metus sit amet nibh sagittis venenatis. Vestibulum luctus quis leo quis consequat.</p>
+						<p>Quisque consequat erat mi, sit amet ultrices orci euismod sed. Sed nec dolor et augue luctus scelerisque vitae eu justo. Nam congue leo neque, ut efficitur sapien varius et. Quisque lacinia finibus porta. Aenean elit dolor, dictum nec varius non, egestas a lectus. Nunc efficitur, tellus non vestibulum aliquam, lorem velit ultricies eros, eu lobortis lacus arcu sit amet nulla. Sed placerat eget elit a congue. Praesent eget eros et erat iaculis gravida et sit amet magna. Praesent vulputate blandit elit, non fermentum risus cursus ut. Duis dignissim lacus in mauris tempor, vel pulvinar turpis feugiat. Mauris convallis leo lacinia odio lacinia, quis faucibus eros congue.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<!-- Links to About and Press Page with Same Menu, Footer  -->
+		<section id="about" name="about">
+			<div class="outerContainer">
+				<div class="tint">				
+					<img class="mainImage" src="assets/TestImage2.jpg">
+				</div>
+				<div class="sectionTitle">
+					<h2>Meet Ana</h2>
+					<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tempus nibh. Donec finibus sapien scelerisque ipsum molestie, consequat vehicula erat tempor. Duis at maximus orci, a sodales augue.</p>
+					<div class="primaryCTA"><a href="pages/about.html">Get to Know Ana</a></div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Links to News Page with Same Menu, Footer  -->
+		<section id="news" name="news">
+			<h5><span>News &amp; Events</span></h5>
+			<h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada in lorem ut sodales. Praesent lacinia quis neque nec dictum."</h4>
+			<div class="secondaryCTA"><a href="pages/news-events.html">Elevate Your Lifestyle</a></div>
+		</section>
+		
+		<!-- Links to Interactive Form Page with Same Menu, Footer  -->
+		<section id="getStarted" name="getStarted">
+			<div class="outerContainer">
+				<div class="tint">
+					<img class="mainImage" src="assets/TestImage3.jpg">
+				</div>
+				<div class="sectionTitle">
+					<h2>Work with Ana</h2>
+					<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tempus nibh. Donec finibus sapien scelerisque ipsum molestie, consequat vehicula erat tempor. Duis at maximus orci, a sodales augue.</p>
+					<div class="primaryCTA"><a href="pages/intake-form.html">Reach Your Goals</a></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Links to Static Testimonials Page with Same Menu, Footer  -->
+		<section id="testimonials" name="testimonials">
+			<h5><span>Testimonials</span></h5>
+			<h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras malesuada in lorem ut sodales. Praesent lacinia quis neque nec dictum."</h4>
+			<div class="secondaryCTA"><a href="pages/testimonials.html">Get Motivated</a></div>
+		</section>
+		
+		<!-- Start Footer  -->
+		<footer>
+			<div class="socialFooter">
+				<ul>
+					<li><a href="https://www.instagram.com/ana_rouxinol/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="mailto:zecatarina@gmail.com?Subject=Personal%20Training"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
+			</div>
+			<div class="contactInfo">
+				<p>Contact and Copyright Info Goes Here</p>
+			</div>
+		</footer>
+		<!-- End Footer  -->
+
+		<!-- Start Java Script  -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		</div>
+	</body>
+</html>
